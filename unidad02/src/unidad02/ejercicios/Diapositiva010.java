@@ -12,11 +12,14 @@ public class Diapositiva010 {
 		while (numero != 0) {
 		
 			if (numero % 2 == 0) {
-				System.out.printf("El número %d es par. \n", numero);
+				System.out.printf("%d es par. \n", numero);
+			}else {
+				System.out.printf("%d es impar. \n", numero);
 			}
 			System.out.println("Introduce un número: ");
 			numero = sc.nextInt();
 		}
+		System.out.printf("Saliste del bucle.");
 	}
 }
 		

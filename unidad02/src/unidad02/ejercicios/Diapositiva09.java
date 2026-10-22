@@ -13,7 +13,7 @@ public class Diapositiva09 {
 		while (contador <10) {
 			System.out.printf("Introduce el número %d: \n", contador + 1);
 			int numero = sc.nextInt();
-			contador = contador + 1;
+			contador++;
 			sumatorio = sumatorio + numero;
 		}
 		double promedio = sumatorio * 1.0 / 10;
